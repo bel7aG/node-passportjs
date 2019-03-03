@@ -1,0 +1,13 @@
+setting up heroku
+heroku login
+
+heroku create
+
+    example:  $ heroku create
+      Creating app... done, boiling-dusk-68782
+      https://boiling-dusk-68782.herokuapp.com/ | https://git.heroku.com/boiling-dusk-68782.git
+
+git commit -m "....."
+git push heroku master
+
+heroku open ==> you done you can see your server content on your heroku url (will open automatically in your default browser)
